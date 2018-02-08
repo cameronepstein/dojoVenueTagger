@@ -1,3 +1,4 @@
 <?php
-print_r('test');
+include(dirname(__FILE__) . "/dojo/db/dojoRequests.php");
+print_r(getDojoVenues());
 ?>
